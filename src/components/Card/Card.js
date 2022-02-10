@@ -7,11 +7,15 @@ const card = (props) => {
 
 
     return (
-        <div className="container">
-            <img className="card-image" src={image} alt="qrcode"/>
-            <h4 className="card-title">{props.title}</h4>
-            <p className="card-description">{props.description}</p>
-        </div>
+        <main className="container">
+            <header>
+                <img className="card-image" src={image} alt="qrcode"/>
+            </header>
+            <section>
+                <h4 className="card-title">{props.title}</h4>
+                <p className="card-description">{props.description}</p>
+            </section>
+        </main>
     )
 };
 
