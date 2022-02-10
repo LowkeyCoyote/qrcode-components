@@ -5,14 +5,16 @@ import "./Card.css"
 
 const card = (props) => {
 
-
     return (
-        <main className="container">
-
-            <img className="card-image" src={image} alt="qrcode"/>
-            <h4 className="card-title">{props.title}</h4>
-            <p className="card-description">{props.description}</p>
-        </main>
+        <div className="container">
+            <header>
+                <img className="card-image" src={image} alt="qrcode"/>
+            </header>
+           <section>
+               <h1 className="card-title">{props.title}</h1>
+               <p className="card-description">{props.description}</p>
+           </section>
+        </div>
     )
 };
 
