@@ -8,13 +8,10 @@ const card = (props) => {
 
     return (
         <main className="container">
-            <header>
-                <img className="card-image" src={image} alt="qrcode"/>
-            </header>
-            <section>
-                <h4 className="card-title">{props.title}</h4>
-                <p className="card-description">{props.description}</p>
-            </section>
+
+            <img className="card-image" src={image} alt="qrcode"/>
+            <h4 className="card-title">{props.title}</h4>
+            <p className="card-description">{props.description}</p>
         </main>
     )
 };
