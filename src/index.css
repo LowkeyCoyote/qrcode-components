@@ -7,6 +7,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
 
 }
 

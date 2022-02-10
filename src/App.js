@@ -1,5 +1,3 @@
-
-import './App.css';
 import Card from "./components/Card/Card.js"
 
 function App() {
@@ -10,12 +8,12 @@ function App() {
     }
 
   return (
-    <main className="App">
+    <div className="App">
       <Card
       title={cardItems.title}
       description={cardItems.description}
       />
-    </main>
+    </div>
   );
 }
 
