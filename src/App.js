@@ -10,12 +10,12 @@ function App() {
     }
 
   return (
-    <div className="App">
+    <main className="App">
       <Card
       title={cardItems.title}
       description={cardItems.description}
       />
-    </div>
+    </main>
   );
 }
 
