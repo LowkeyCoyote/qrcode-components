@@ -1,0 +1,27 @@
+.container{
+    background-color: white;
+    height: 495px;
+    width: 330px;
+    border-radius: 15px;
+    padding: 16px;
+    box-shadow:0 1px 10px 0 hsl(218, 20%, 70%);
+}
+
+.card-image{
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card-title{
+    font-weight: bold;
+    color : hsl(218, 44%, 22%);
+    text-align: center;
+    font-size: 22px;
+    margin: 0 10px 15px 10px;
+}
+
+.card-description{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    margin: 0 20px;
+}
